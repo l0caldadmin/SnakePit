@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  snakepit: # Combined service name
+    build: .
+    ports:
+      - "5000:5000"
+      - "8899:8899"
+      - "8888:8888"
